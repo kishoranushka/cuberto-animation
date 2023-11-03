@@ -32,7 +32,7 @@ body {
   font-size: 3vw;
   font-weight: 700;
   padding: 0 5vw;
-  transform: translateY(-5vw);
+  /* transform: translateY(-5vw); */
 }
 
 .frame {
