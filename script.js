@@ -34,6 +34,7 @@ frame.addEventListener("mousemove", function (dets) {
   gsap.to(".frame span", {
     x: lerp(-50, 50, zeroone),
     duration: 0.3,
+    
   });
 });
 
