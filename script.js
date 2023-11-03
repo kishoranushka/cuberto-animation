@@ -28,7 +28,7 @@ frame.addEventListener("mousemove", function (dets) {
   gsap.to(".frame span", {
     color: "#fff",
     duration: 0.4,
-    y: "5vw",
+    y: "-5vw",
   });
 
   gsap.to(".frame span", {
@@ -46,7 +46,7 @@ frame.addEventListener("mouseleave", function (dets) {
   gsap.to(".frame span", {
     color: "#000",
     duration: 0.4,
-    y: "-5vw",
+    y:0,
   });
 
   gsap.to(".frame span", {
