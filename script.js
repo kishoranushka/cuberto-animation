@@ -9,7 +9,6 @@ window.addEventListener("mousemove", function (dets) {
     y: dets.clientY,
     duration: 0.2,
     ease: Expo,
-    
   });
 });
 
@@ -47,7 +46,7 @@ frame.addEventListener("mouseleave", function (dets) {
   gsap.to(".frame span", {
     color: "#000",
     duration: 0.4,
-    y:0,
+    y: 0,
   });
 
   gsap.to(".frame span", {
