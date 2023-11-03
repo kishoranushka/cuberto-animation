@@ -9,6 +9,7 @@ window.addEventListener("mousemove", function (dets) {
     y: dets.clientY,
     duration: 0.2,
     ease: Expo,
+    
   });
 });
 
